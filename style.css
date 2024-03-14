@@ -1,0 +1,70 @@
+body{
+    background-color:white
+}
+
+h1{
+    color:rgb(151, 47, 151);
+    font-size: 40px;
+    margin-top: 5%;
+    text-align: center;
+    
+    
+}
+#aventador{
+        margin: 5%;
+        text-align: center;
+    
+}
+#anoDaFabricacao{
+    margin: 1%;
+}
+
+#caracteristicas{
+    margin: 1%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 1%;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+
+#Cor{
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#potencia{
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#Modelo{
+    margin: 0%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#anoDaFabricacao{
+    
+    padding: 20px;
+    border-radius: 20px;
+}
+#Ano{
+    padding: 10px;
+    border-radius: 10px;
+}
+#aventador{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 25px;
+
+}
+#Confirmar{
+    margin: 1%;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 90px;
+    padding: 10px;
+    margin-left: 900px;
+}
