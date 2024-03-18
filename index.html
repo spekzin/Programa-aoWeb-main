@@ -13,11 +13,13 @@
     <h1>Lamborghini</h1>
     <div id="aventador">
         <img src="lambo.jpg" alt="lambozinha">
-    </div>
 
+    </div>
+        <form>
     <div id="caracteristicas">
-        <select id="Ano" required>
-            <option value="">Ano de Fabricação</option>
+
+        <label for="Ano">Ano:</label>
+        <select id="Ano" class="select-Ano" required>
             <option value="2020">2020</option>
             <option value="2021">2021</option>
             <option value="2022">2022</option>
@@ -26,8 +28,8 @@
 
         </select>
 
-        <select id="Cor" required>
-            <option value="">Cor</option>
+        <label for="cor">Cor:</label>
+        <select id="Cor" class="select-Cor" required>
             <option value="Roxo">Roxo</option>
             <option value="Verde">Verde</option>
             <option value="Preto">Preto</option>
@@ -36,21 +38,21 @@
 
         </select>
 
-
-        <select id="Modelo" required>
-            <option value="">Modelo</option>
+        <label for="modelo">Modelo:</label>
+        <select id="Modelo" class="select-Modelo" required>
             <option value="Aventador">Aventador</option>
             <option value="Urus">Urus</option>
             <option value="SVJ">SVJ</option>
             <option value="Gallardo">Gallardo</option>
 
         </select>
-
-    </div>
+         </div>
+    <p id="aviso" style="color: red; display: none;">Por favor, selecione todas as opções.</p>
 
             <button id="botaoConfirmar" placeholder="Confirmar">Confimar Seleção</button>
 
             <script src="main.js"></script> 
+    </form>
 </body>
 
 </html>

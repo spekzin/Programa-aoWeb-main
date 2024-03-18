@@ -5,9 +5,10 @@ document.getElementById("botaoConfirmar").addEventListener("click", function() {
     const modeloSelecionado = document.getElementById("Modelo").value;
 
     if (corSelecionada === "" || anoSelecionado === "" || modeloSelecionado === "") {
-        alert("Por favor, selecione Cor, Ano e Modelo antes de confirmar.");
-    } else {
-        alert("Seleção confirmada!");
-    }
-});
+        event.preventDefault(); //Evita o envio do formulario
+        aviso.style.display = "block"; // Mostra o Aviso
 
+    } else{
+        aviso.style.display = "none"; //Esconde o aviso caso tudo esteja preenchido
+    }
+};
