@@ -73,9 +73,9 @@ h1{
 
 }
 #botaoConfirmar{
-    margin: 1%;
+    margin: 2%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 13px;
     margin-bottom: 30px;
     border-radius: 90px;
     padding: 10px;
@@ -85,4 +85,9 @@ form{
     margin: 0%;
     margin-left: 0%;
 }
-
+#aviso{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+    display: none;
+}
