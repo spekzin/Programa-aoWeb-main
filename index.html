@@ -10,49 +10,41 @@
 </head>
 
 <body>
-    <h1>Selecione sua Configuração</h1>
-    <div id="aventador">
-        <img src="jpg/TesteInicial.jpg" alt="FotoIncial">
-
-    </div>
+    <h1>Escolha seu Carro</h1>
     <form id="formulario">
         <div id="caracteristicas">
 
-            <label for="Ano">Ano:</label>
+
+            <label class="selecionar"for="Ano">Ano:</label>
             <select id="Ano" class="select-Ano" required>
-                <option value="Ano"></option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
                 <option value="2023">2023</option>
-                <option value="2024">2024</option>
 
             </select>
 
-            <label for="cor">Cor:</label>
+            <label class="selecionar" for="cor">Cor:</label>
             <select id="Cor" class="select-Cor" required>
                 <option value="Cor"></option>
-                <option value="Roxo">Roxo</option>
-                <option value="Verde">Verde</option>
+                <option value="Vermelho">Vermelho</option>
+                <option value="Prata">Prata</option>
                 <option value="Preto">Preto</option>
                 <option value="Branco">Branco</option>
 
 
             </select>
 
-            <label for="modelo">Modelo:</label>
+            <label class="selecionar" for="modelo">Modelo:</label>
             <select id="Modelo" class="select-Modelo" required>
                 <option value="Modelo"></option>
-                <option value="Aventador">Aventador</option>
-                <option value="Urus">Urus</option>
-                <option value="SVJ">SVJ</option>
-                <option value="Gallardo">Gallardo</option>
+                <option value="Sedan">Sedan</option>
+                <option value="Suv">Suv</option>
+                <option value="Luxo">Luxo</option>
+                <option value="Hatch">Hatch</option>
 
             </select>
         </div>
         <p id="aviso">Por favor, selecione todas as opções.</p>
 
-        <button id="botaoConfirmar" placeholder="Confirmar">Confimar Seleção</button>
+        <button id="botaoConfirmar" placeholder="Confimar">Confimar Seleção</button>
 
 
         <script src="main.js"></script>

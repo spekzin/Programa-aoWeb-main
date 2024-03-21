@@ -1,10 +1,10 @@
 .imagem-redirecionada {
-    max-width: 70%;
+    max-width: 100%;
     /* Define a largura máxima da imagem para ocupar o espaço disponível */
-    height: auto;
+    height: 400px;
     /* Mantém a proporção da imagem */
-    display: block;
-    /* Faz com que a imagem seja exibida como um bloco */
+    display: flex;
+
     margin: 0 auto;
     /* Centraliza a imagem horizontalmente */
     margin-top: 5%;

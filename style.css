@@ -1,11 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color:whitesmoke
+
+    background-color:whitesmoke;
+    background: url(jpg/bmpretatestefundo.jpg);
+
+
 }
 
 h1{
-    color:rgb(151, 47, 151);
+    color: black;
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 50px;
     text-align: center;
     
     
@@ -22,9 +32,8 @@ h1{
 #caracteristicas{
     margin: 1%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0;
     margin-top: 1%;
-    margin-bottom: 10px;
     border-radius: 100px;
 }
 
@@ -52,6 +61,7 @@ h1{
     border-radius: 20px;
 }
 #Ano{
+    color: white;
     margin-left: 0%;
     padding: 10px;
     border-radius: 10px;
@@ -90,4 +100,11 @@ form{
     text-align: center;
     color: red;
     display: none;
+}
+#imagemDeFundo{
+background-size: cover;
+background-position: center;
+}
+.selecionar{
+    color: white;
 }
