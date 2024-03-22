@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 body{
-
-    background-color:whitesmoke;
-    background: url(jpg/bmpretatestefundo.jpg);
-
-
+    background: url(jpg/bm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -84,7 +82,7 @@ h1{
 }
 #botaoConfirmar{
     margin: 2%;
-    text-align: center;
+background-repeat: no-repeat;
     padding-top: 13px;
     margin-bottom: 30px;
     border-radius: 90px;
@@ -104,6 +102,7 @@ form{
 #imagemDeFundo{
 background-size: cover;
 background-position: center;
+background-repeat: no-repeat;
 }
 .selecionar{
     color: white;
