@@ -5,14 +5,15 @@
 }
 body{
 
-    background-color:whitesmoke;
-    background: url(jpg/bmpretatestefundo.jpg);
+    background: url(jpg/bm2.0.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
 
 h1{
-    color: black;
+    color: white;
     font-size: 40px;
     margin-top: 2%;
     margin-bottom: 50px;
@@ -61,7 +62,7 @@ h1{
     border-radius: 20px;
 }
 #Ano{
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: 0%;
     padding: 10px;
     border-radius: 10px;
@@ -83,6 +84,8 @@ h1{
 
 }
 #botaoConfirmar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     margin: 2%;
     text-align: center;
     padding-top: 13px;
@@ -90,16 +93,19 @@ h1{
     border-radius: 90px;
     padding: 10px;
     margin-left: 600px;
+    justify-content: center;
 }
 form{
     margin: 0%;
     margin-left: 0%;
 }
 #aviso{
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: red;
     display: none;
+    border: 10px;
 }
 #imagemDeFundo{
 background-size: cover;
