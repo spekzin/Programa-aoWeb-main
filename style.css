@@ -5,9 +5,8 @@
 }
 body{
 
-    background: url(jpg/bm2.0.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:whitesmoke;
+    background: url(jpg/bmpretatestefundo.jpg);
 
 
 }
@@ -87,7 +86,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     margin: 2%;
-    text-align: center;
+background-repeat: no-repeat;
     padding-top: 13px;
     margin-bottom: 30px;
     border-radius: 90px;
@@ -110,6 +109,7 @@ form{
 #imagemDeFundo{
 background-size: cover;
 background-position: center;
+background-repeat: no-repeat;
 }
 .selecionar{
     color: white;
