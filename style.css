@@ -6,8 +6,9 @@
 body{
 
     background-color:whitesmoke;
-    background: url(jpg/bmpretatestefundo.jpg);
-
+    background: url(jpg/bm2.0.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
